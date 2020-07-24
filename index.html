@@ -1,54 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Studio</title>
-    <link rel="stylesheet" href="css/style.css">
+	<!-- Todos los metadatos -->
+	<meta name="description" content="web description" />
+	<meta name="keywords" content="practica, ejercicio" />
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<title>Practica Clase 11</title>
+
 </head>
+
 <body>
-    <div id="header"><!--encabezado de la pagina-->
-        <div><!--imagen y correo-->
-            <img src="img/logo.png" alt="logo">
-            <p> <a href="#">info@CreativeStudio.com</a></p>
-        </div>
-        <div><!--menu-->
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">PORTAFOLIO</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT US</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="content"><!--contenido-->
-        <div>
-            <img src="img/img.jpg" alt="imagen central">
-        </div>
-        <div><!--los tres bloques-->
-            <div><!--primer bloque-->
-                <h2>ABOUT US</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, unde asperiores. Vero incidunt necessitatibus odit animi mollitia nulla iure quis alias eligendi ratione, repellat at, nemo natus dolore perferendis maiores.</p>
-                <img src="" alt="">
-                <p><a href="#">READ</a></p>
-            </div>
-            <div><!--segundo bloque-->
-                <h2>OUR BENEFIST</h2>
-                <hr>
-                <img src="img/check.png" alt="check"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ratione, sed nostrum voluptate deserunt, at voluptatibus neque aut, amet obcaecati laboriosam placeat doloribus iure vitae repellat distinctio adipisci quam quis!</p>
-                <img src="img/check.png" alt="check"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolorum fugiat in quia voluptas, corrupti ratione facilis voluptates quam, illum, pariatur mollitia consectetur tempora itaque odio molestias consequatur magnam quisquam!</p>
-                <img src="img/check.png" alt="check"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque sint dolore dignissimos suscipit cum quam. Doloremque sequi, suscipit eaque possimus explicabo in vel, natus veritatis excepturi nisi praesentium, at tempora.</p>
-            </div>
-            <div><!--tercer bloque-->
-                <h2>TESTIMOALS</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eos, tempora magnam est similique labore quibusdam maxime ab nobis vel, amet optio voluptate inventore. Qui, totam sunt. Rem, minima quam.</p>
-                <p>Rafi,Graphicsfuel.com</p>
-            </div>
-        </div>
+
+	<!-- Wrappper -->
+	<div class="wrapper">
+
+		<!-- Header -->
+		<div id="header" class="clearfix padding-border">
+			<div id="img1">
+				<img src="img/logo.png" alt="Imagen del logo" />
+			</div>
+			<div id="nav"><!--menu-->
+				<a href="#" id="nav-link-email">info@creativStudio.com</a>
+				<ul id="nav-lista" class="clearfix">
+                    <li><a href="#">Home</a></li>
+                    
+                    <li><a href="#">About us</a></li>
+                    
+                    <li><a href="#">Portfolio</a></li>
+                    
+                    <li><a href="#">Service</a></li>
+                    
+                    <li><a href="#">Blog</a></li>
+                    
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- imgcentral -->
+		<div id="imgcentral" class="padding-border">
+			<img src="img/img.jpg"/>
+		</div>
+
+		<!--Contenido principal -->
+		<div id="contenidoprincipal" class="clearfix">
+			<div class="cuadro1">
+				<h2>About us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
+					posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
+					lobortis scelerisque. Praesent eget consequat libero. </p>
+				<a href="#" id="link1">Read</a>
+			</div>
+			<div class="cuadro1">
+				<h2>Our benefits</h2>
+				<ul id="cuadro1-extra-lista">
+					<li class="cuadro1-img">
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada
+							porta
+                            posuere quis massa.</p>
+                            
+					</li>
+					<li class="cuadro1-img">
+
+						<p>Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis
+                            scelerisque. Praesent eget consequat</p>
+                            
+					</li>
+					<li class="cuadro1-img">
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada
+							porta
+                            posuere quis massa. </p>
+                            
+					</li>
+				</ul>
+			</div>
+			<div class="cuadro1">
+				<h2>Testimonials</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
+					posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
+					lobortis scelerisque. </p>
+				<span id="texto">Rafi, Graphicsfuel.com</span>
+			</div>
+		</div>
         <div><!--Our portafolio-->
             <h2>OUR PORTAFOLIO</h2>
             <a href="#"><img src="img/portfolio1.jpg" alt="portafolio1"></a>
@@ -69,19 +107,20 @@
                 <a href="#"><img src="img/icono-orange.png" alt="icono-orange"></a>
             </div>
         </div>
-    </div>
-    <div id="footer">
-        <div><!--menu y copiright y logo-->
-            <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About Us</li></a>
-                <a href="#"><li>Portafolio</li></a>
-                <a href="#"><li>Services</li></a>
-                <a href="#"><li>Blog</li></a>
-                <a href="#"><li>Contact Us</li></a>
-            </ul>
-            <img src="img/logo.png" alt="Logo">
+        <div id="footer">
+            <div><!--menu y copiright y logo-->
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Portafolio</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                </ul>
+                <img src="img/logo.png" alt="Logo">
+            </div>
         </div>
     </div>
 </body>
+
 </html>
