@@ -1,0 +1,73 @@
+$colornegroclaro: #5d5d5d;
+$coloranaranjado:#fe9b00;
+
+#contenidoprincipal p{
+	color: $colornegroclaro;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#cuadro1-extra-lista{
+	@include list-style;
+	margin: 0;
+	padding: 0;
+}
+.cuadro1-img{
+    padding-left: 25px;
+    background-image: url(../../img/check.png);
+    background-repeat: no-repeat;
+}
+#texto{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.cuadro1{
+	width: 280px;
+	float: left;
+}
+
+.cuadro1 + .cuadro1{
+	margin-left: 60px;
+}
+
+#nav-list a{
+	font-size: 12px;
+	font-weight: bold;
+	color: $coloranaranjado;
+	@include text-decoration;
+}
+#link1{
+    color: $coloranaranjado;
+    @include text-decoration;
+    @include decoracion ($pbottom:none, $pleft:20px, $bckimg:url(../../img/arrow.png), $bckrep:no-repeat, $bckpos:0px);
+
+}
+#portafolio{
+	border-bottom: none;
+	}
+#our-portafolio a+a{
+	margin-left: 28px;
+}
+#prefooter div{
+	float: left;
+	margin-bottom: 30px;
+}
+#uppdates{
+	width: 740px;
+	
+}
+#uppdates p{
+	font-size: 12px;
+	color: $colornegroclaro;
+	width: 600px;
+}
+#conect{
+	width: 220px;
+}
+#conect a+a{
+	margin-left: 10px;
+}
+h5{
+    @include decoracion ($pbottom: 12px, $pleft:30px, $bckimg:url('../../img/arrow.png'), $bckrep:no-repeat, $bckpos:0 3px);
+}

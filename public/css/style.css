@@ -1,9 +1,74 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0; }
+#contenidoprincipal p {
+  color: #5d5d5d;
+  font-size: 12px;
+  line-height: 20px; }
 
-html {
-  border-top: 17px solid #090909; }
+#cuadro1-extra-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.cuadro1-img {
+  padding-left: 25px;
+  background-image: url(../../img/check.png);
+  background-repeat: no-repeat; }
+
+#texto {
+  font-style: italic;
+  font-size: 12px; }
+
+.cuadro1 {
+  width: 280px;
+  float: left; }
+
+.cuadro1 + .cuadro1 {
+  margin-left: 60px; }
+
+#nav-list a {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fe9b00;
+  text-decoration: none; }
+
+#link1 {
+  color: #fe9b00;
+  text-decoration: none;
+  padding-bottom: none;
+  padding-left: 20px;
+  background-image: url(../../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 0px; }
+
+#portafolio {
+  border-bottom: none; }
+
+#our-portafolio a + a {
+  margin-left: 28px; }
+
+#prefooter div {
+  float: left;
+  margin-bottom: 30px; }
+
+#uppdates {
+  width: 740px; }
+
+#uppdates p {
+  font-size: 12px;
+  color: #5d5d5d;
+  width: 600px; }
+
+#conect {
+  width: 220px; }
+
+#conect a + a {
+  margin-left: 10px; }
+
+h5 {
+  padding-bottom: 12px;
+  padding-left: 30px;
+  background-image: url("../../img/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 0 3px; }
 
 h2 {
   font-size: 18px;
@@ -11,7 +76,7 @@ h2 {
   border-bottom: 6px solid #090909;
   padding-bottom: 12px;
   padding-left: 20px;
-  background-image: url("../img/arrow.png");
+  background-image: url("../../img/arrow.png");
   background-repeat: no-repeat;
   background-position: 0 7px; }
 
@@ -75,7 +140,7 @@ h2 {
 
 .cuadro1-img {
   padding-left: 25px;
-  background-image: url(../img/check.png);
+  background-image: url(../../img/check.png);
   background-repeat: no-repeat; }
 
 #texto {
@@ -98,8 +163,9 @@ h2 {
 #link1 {
   color: #fe9b00;
   text-decoration: none;
+  padding-bottom: none;
   padding-left: 20px;
-  background-image: url(../img/arrow.png);
+  background-image: url(../../img/arrow.png);
   background-repeat: no-repeat;
   background-position: 0px; }
 
@@ -130,7 +196,7 @@ h2 {
 h5 {
   padding-bottom: 12px;
   padding-left: 30px;
-  background-image: url("../img/arrow.png");
+  background-image: url("../../img/arrow.png");
   background-repeat: no-repeat;
   background-position: 0 3px; }
 
@@ -176,3 +242,10 @@ h5 {
 #footer2 {
   background-color: #e2e2e2;
   width: 100%; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; }
+
+html {
+  border-top: 17px solid #090909; }

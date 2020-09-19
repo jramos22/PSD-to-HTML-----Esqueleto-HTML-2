@@ -1,0 +1,19 @@
+@mixin list-style {
+    list-style: none;
+}
+
+@mixin limpieza {
+    content: "";
+    clear: both;
+    display: table;
+}
+@mixin text-decoration {
+    text-decoration: none;
+}
+@mixin decoracion ($pbottom, $pleft, $bckimg, $bckrep, $bckpos) {
+        padding-bottom: $pbottom;
+        padding-left: $pleft;
+        background-image: $bckimg;
+        background-repeat: $bckrep;
+        background-position: $bckpos;
+}
