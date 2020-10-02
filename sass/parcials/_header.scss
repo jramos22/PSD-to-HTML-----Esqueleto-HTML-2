@@ -14,7 +14,7 @@ h2{
 
 
 .wrapper{
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -23,18 +23,21 @@ h2{
 }
 
 .padding-border{
-	padding: 20px 0 15px;
+	padding: 3% 0 1.5%;
 	border-bottom: 1px solid $colorgrisclaro;
 }
 
 #img1{
 	float: left;
-	width: 183px;
+	max-width: 19%;
+}
+#imgimg{
+	width: 100%;
 }
 
 #nav{
 	float: right;
-	width: 655px;
+	width: 69%;
 	position: relative;
 }
 
@@ -49,7 +52,7 @@ h2{
 
 #nav-lista{
 	@include list-style;
-	margin: 45px 0 0 0;
+	margin: 5.7% 0 0 0;
 	padding: 0;
 }
 
@@ -57,7 +60,7 @@ h2{
 	float: left;
 }
 #nav-lista li + li{
-	margin-left: 64px;
+	margin-left: 8%;
 }
 
 #nav-lista a{

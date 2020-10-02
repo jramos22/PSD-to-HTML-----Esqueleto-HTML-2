@@ -6,14 +6,16 @@ $coloranaranjado:#fe9b00;
 	font-size: 12px;
 	line-height: 20px;
 }
-
+#centro{
+	max-width: 100%;
+}
 #cuadro1-extra-lista{
 	@include list-style;
 	margin: 0;
 	padding: 0;
 }
 .cuadro1-img{
-    padding-left: 25px;
+    padding-left: 14%;
     background-image: url(../../img/check.png);
     background-repeat: no-repeat;
 }
@@ -23,12 +25,12 @@ $coloranaranjado:#fe9b00;
 }
 
 .cuadro1{
-	width: 280px;
+	max-width: 29%;
 	float: left;
 }
 
 .cuadro1 + .cuadro1{
-	margin-left: 60px;
+	margin-left: 6.25%;
 }
 
 #nav-list a{
@@ -47,26 +49,30 @@ $coloranaranjado:#fe9b00;
 	border-bottom: none;
 	}
 #our-portafolio a+a{
-	margin-left: 28px;
+	margin-left: 2.9%;
+}
+.imagenes{
+	width: 22%;
+	
 }
 #prefooter div{
 	float: left;
 	margin-bottom: 30px;
 }
 #uppdates{
-	width: 740px;
+	max-width: 77%;
 	
 }
 #uppdates p{
 	font-size: 12px;
 	color: $colornegroclaro;
-	width: 600px;
+	max-width: 63%;
 }
 #conect{
-	width: 220px;
+	max-width: 23%;
 }
 #conect a+a{
-	margin-left: 10px;
+	margin-left: 1%;
 }
 h5{
     @include decoracion ($pbottom: 12px, $pleft:30px, $bckimg:url('../../img/arrow.png'), $bckrep:no-repeat, $bckpos:0 3px);
