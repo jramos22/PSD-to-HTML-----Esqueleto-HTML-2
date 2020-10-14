@@ -77,3 +77,67 @@ $coloranaranjado:#fe9b00;
 h5{
     @include decoracion ($pbottom: 12px, $pleft:30px, $bckimg:url('../../img/arrow.png'), $bckrep:no-repeat, $bckpos:0 3px);
 }
+
+//tablet
+@media (max-width: 1023px) {
+	.cuadro1{
+		max-width: 100%;
+		padding: 0% 3% 0% 3%;
+		float: none;
+	}
+	.cuadro1 + .cuadro1{
+		margin-left: 0%;
+		margin-top: 50px;
+	}
+	.cuadro1-img{
+		padding-left: 6%;
+		background-image: url(../../img/check.png);
+		background-repeat: no-repeat;
+	}
+	.imagenes{
+		width: 45%;
+		
+	}
+	#our-portafolio a+a{
+		margin-left: 3%;
+	}
+	#our-portafolio a{
+		margin-left: 3%;
+	}
+}
+@media (max-width: 767px) {
+	.cuadro1{
+		max-width: 100%;
+		padding: 0% 0% 0% 0%;
+		float: none;
+	}
+	.cuadro1 + .cuadro1{
+		margin-left: 0%;
+		margin-top: 50px;
+	}
+	.cuadro1-img{
+		padding-left: 6%;
+		background-image: url(../../img/check.png);
+		background-repeat: no-repeat;
+	}
+	.imagenes{
+		width: 100%;
+		
+	}
+	#our-portafolio a+a{
+		margin-left: 0%;
+	}
+	#our-portafolio a{
+		margin-left: 0%;
+	}
+
+	#uppdates{
+		max-width: 70%;
+		
+	}
+	#uppdates p{
+		font-size: 12px;
+		color: $colornegroclaro;
+		max-width: 80%;
+	}
+}
