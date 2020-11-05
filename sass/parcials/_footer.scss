@@ -24,7 +24,7 @@ $colorgrisintermedio: #acacac;
 }
 
 #footer-nav a{
-	font-size: 12px;
+	@include font-size(12px);
 	color: $colorgrisintermedio;
 	@include text-decoration;
 	
@@ -41,7 +41,7 @@ $colorgrisintermedio: #acacac;
 	position: relative;
 	top: 50px;
 	right: -10px;
-	font-size: 12px;
+	@include font-size(12px);
 }
 #footer2{
 	background-color: $colorblancogrisaceo;

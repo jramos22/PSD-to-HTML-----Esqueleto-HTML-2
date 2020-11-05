@@ -3,7 +3,7 @@ $coloranaranjado:#fe9b00;
 
 #contenidoprincipal p{
 	color: $colornegroclaro;
-	font-size: 12px;
+	@include font-size(12px);
 	line-height: 20px;
 }
 #centro{
@@ -21,7 +21,7 @@ $coloranaranjado:#fe9b00;
 }
 #texto{
     font-style: italic;
-    font-size: 12px;
+    @include font-size(12px);
 }
 
 .cuadro1{
@@ -34,7 +34,7 @@ $coloranaranjado:#fe9b00;
 }
 
 #nav-list a{
-	font-size: 12px;
+	@include font-size(12px);
 	font-weight: bold;
 	color: $coloranaranjado;
 	@include text-decoration;
@@ -64,7 +64,7 @@ $coloranaranjado:#fe9b00;
 	
 }
 #uppdates p{
-	font-size: 12px;
+	@include font-size(12px);
 	color: $colornegroclaro;
 	max-width: 63%;
 }
@@ -136,7 +136,7 @@ h5{
 		
 	}
 	#uppdates p{
-		font-size: 12px;
+		@include font-size(12px);
 		color: $colornegroclaro;
 		max-width: 80%;
 	}

@@ -17,3 +17,11 @@
         background-repeat: $bckrep;
         background-position: $bckpos;
 }
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+@mixin fontSize($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
